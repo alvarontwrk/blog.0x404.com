@@ -32,9 +32,11 @@ También a Pulido por aquellas primeras etapas, por la confianza y por estar ah�
 
 A Javi, por exigirme más de lo que yo mismo me habría exigido nunca y por enseñarme que la ciberseguridad va mucho más allá de una terminal.
 
-Y a Jose, por ayudarnos a relativizar cuando el día a día se nos comía y por aportar siempre un soplo de aire fresco.
+A Jose, por ayudarnos a relativizar cuando el día a día se nos comía y por aportar siempre un soplo de aire fresco.
 
-Por último pero no menos importante, quiero darle las gracias a mi equipo, el dream team, por haberme permitido ayudarles a crecer y a crecer yo con ellos. Es demasiado fácil trabajar con vosotros, estoy seguro que os irá genial en todo lo que os propongáis.
+A los TLs, por haber compartido tanto los momentos buenos como los no tan buenos. Nos quedamos con anécdotas que nos acompañarán toda la vida.
+
+Y por último pero no menos importante, quiero darle las gracias a mi equipo, el dream team, por haberme permitido ayudarles a crecer y a crecer yo con ellos. Es demasiado fácil trabajar con vosotros, estoy seguro que os irá genial en todo lo que os propongáis.
 
 En general, me llevo la experiencia de haber trabajado en un sitio donde la calidad importa, pero en el que las personas importan igual o más.
 
