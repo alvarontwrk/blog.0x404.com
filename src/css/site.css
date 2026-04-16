@@ -1,0 +1,216 @@
+:root {
+  color-scheme: dark;
+  --bg: #0c1018;
+  --text: #e6ecfb;
+  --muted: #95a2c4;
+  --border: #202a43;
+  --accent: #4169e1;
+  --accent-soft: rgba(65, 105, 225, 0.12);
+  --content-width: 720px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+code,
+pre {
+  font-family: "SFMono-Regular", SFMono-Regular, ui-monospace, Menlo, monospace;
+}
+
+.shell {
+  width: min(calc(100% - 2rem), 760px);
+  margin: 0 auto;
+  padding: 2.5rem 0 4rem;
+}
+
+.site-header {
+  margin-bottom: 2rem;
+}
+
+.brand {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.brand:hover {
+  color: var(--text);
+}
+
+.site-tagline,
+.post-meta,
+.post-card-date,
+.post-description,
+.back-link,
+.post-signature {
+  color: var(--muted);
+}
+
+.site-tagline {
+  margin: 0.35rem 0 0;
+  max-width: 56ch;
+}
+
+.list-title,
+.post-header h1,
+.post-card h2 {
+  margin: 0;
+  line-height: 1.15;
+}
+
+.list-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-card {
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.post-list li:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.post-card-date,
+.post-meta,
+.back-link {
+  font-size: 0.95rem;
+}
+
+.post-card h2 {
+  margin-top: 0.2rem;
+  font-size: 1.28rem;
+  font-weight: 600;
+}
+
+.post-card a,
+.post a,
+.prose a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.post-card a:hover,
+.post a:hover,
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.post-header h1 {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  letter-spacing: -0.03em;
+}
+
+.post-meta,
+.post-description {
+  margin: 0.35rem 0 0;
+}
+
+.back-link {
+  margin: 0 0 1.5rem;
+}
+
+.post-body {
+  margin-top: 2rem;
+}
+
+.post-signature {
+  margin-top: 2rem;
+}
+
+.prose > * {
+  max-width: var(--content-width);
+}
+
+.prose h2,
+.prose h3,
+.prose h4 {
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose p,
+.prose ul,
+.prose ol,
+.prose pre,
+.prose blockquote {
+  margin: 1rem 0;
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.25rem;
+}
+
+.prose blockquote {
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+
+.prose code {
+  background: var(--accent-soft);
+  color: var(--text);
+  padding: 0.12rem 0.35rem;
+  border-radius: 0.25rem;
+}
+
+.prose pre {
+  background: #0a1020;
+  color: #eef4ff;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  overflow-x: auto;
+}
+
+.prose pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+@media (max-width: 640px) {
+  .shell {
+    width: min(calc(100% - 1rem), 760px);
+    padding-top: 1.5rem;
+  }
+
+  .brand {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+
+  .post-card h2 {
+    font-size: 1.15rem;
+  }
+}
