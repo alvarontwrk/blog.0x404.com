@@ -30,6 +30,7 @@ src/
   css/site.css           # Minimal theme
   index.njk              # Home page and post listing
   posts/                 # Markdown blog posts
+  CNAME                   # GitHub Pages custom domain
 ```
 
 ## Writing a post
@@ -48,6 +49,12 @@ Write your post in Markdown here.
 
 Posts are automatically listed on the home page and rendered as static HTML.
 Each post also gets the closing signature `- Alvaro GJ` from `src/_data/site.json`.
+
+## Publishing
+
+`main` contains the Eleventy source. GitHub Pages serves `docs/` from the
+`deploy` branch. Build from `main`, then replace `deploy/docs/` with the
+contents of `_site/` and push both branches.
 
 ## Customizing the theme
 
